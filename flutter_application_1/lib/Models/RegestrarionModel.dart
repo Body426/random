@@ -1,9 +1,9 @@
 class Regestrarionmodel {
   bool status;
-  String message;
-  Regestrarionmodel({required this.message, required this.status});
+  String m;
+  Regestrarionmodel({required this.m, required this.status});
 
   factory Regestrarionmodel.fromJson(Map<String, dynamic> k) {
-    return Regestrarionmodel(message: k[""], status: k[""]);
+    return Regestrarionmodel(m: k[""], status: k[""]);
   }
 }
